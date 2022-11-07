@@ -84,7 +84,7 @@
         },
         
         "database-setup": [
-            "php bin/console doctrine:migrations:migrate  --no-interaction"
+            "symfony console  doctrine:migrations:migrate  --no-interaction"
            
         ],
         "post-install-cmd": [
